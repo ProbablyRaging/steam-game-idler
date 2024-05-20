@@ -43,7 +43,7 @@ export default function index() {
             const appIds = inputValue.split(',').map(id => id.trim());
             for (const appId of appIds) {
                 const path = await invoke('get_file_path');
-                const fullPath = path.replace('Steam Game Idler Lite.exe', 'lib\\steam-idle.exe');
+                const fullPath = path.replace('Steam Game Idler Lite.exe', 'libs\\idler.exe');
                 await invoke('idle_game', { filePath: fullPath, argument: appId.toString() });
             }
             setInputValue('');
