@@ -1,10 +1,10 @@
 {
-    "version": "1.1.4",
-    "notes": "Updated idler window to show the game's name in the title bar",
+    "version": "1.1.5",
+    "notes": "Added tooltips to the sidebar (sort bar) to indicate what each button does",
     "platforms": {
         "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSDh2NGF3cDBSMHF0VWNIVWg3a25IZVYzWmFaN3BWUXc2YWQ4NU1PK1pVNGRydlpZaTFuTzdtRWh3Zk1lZysvL1BLelVOTGdadktoTmdkTmtMS1FMSUZpb0xHWC90bXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzE2MTkwNTUzCWZpbGU6U3RlYW0gR2FtZSBJZGxlciBMaXRlXzEuMS40X3g2NF9lbi1VUy5tc2kuemlwCloxdldtTEFxV3RxRng0bnRpUTUvY1RTZTdobVhlOUltNFh0UnR4VVNJYVNFK1NrVXVIZlJIMzZESWROTXpScnZhdm4wYkRvbkhldkhnYTNITU5LbkFBPT0K",
-            "url": "https://github.com/ProbablyRaging/steam-game-idler/releases/download/1.1.4/Steam.Game.Idler.Lite_1.1.4_x64_en-US.msi.zip"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSDh2NGF3cDBSMG1ZeXBSbEdOeWJkem9lUTVtTm93M2o0MjVUU3dIWi84QTB2a2ZwUVF4cFpzWm5HbndHem1PUHkxNXhqS0xuOTA5cTJEYlRYaDBuQktqcTZMM0U4UHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzE2NjA4NTk2CWZpbGU6U3RlYW0gR2FtZSBJZGxlciBMaXRlXzEuMS41X3g2NF9lbi1VUy5tc2kuemlwCkhUVFNpLy9CTHpxTkpKaUhyT0JDWVE0VWhuLzkzc1BDOGlVZGlQMHJad1hXTlNsRHpvTE5BM1k0a2dwdXJVTVJScGVHY2Z5VE11dzNwb0NkbjJGSERnPT0K",
+            "url": "https://github.com/ProbablyRaging/steam-game-idler/releases/download/1.1.5/Steam.Game.Idler.Lite_1.1.5_x64_en-US.msi.zip"
         }
     }
 }
