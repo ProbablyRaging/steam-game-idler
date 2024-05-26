@@ -3,12 +3,12 @@ import Head from 'next/head';
 import { GeistSans } from 'geist/font/sans';
 import { invoke } from '@tauri-apps/api/tauri';
 import { Button, Divider, Input } from '@nextui-org/react';
-import { BiSolidLeaf } from "react-icons/bi";
-import { HiMiniMinus } from "react-icons/hi2";
-import { IoClose } from "react-icons/io5";
-import { FaArrowRight } from "react-icons/fa";
+import { BiSolidLeaf } from 'react-icons/bi';
+import { HiMiniMinus } from 'react-icons/hi2';
+import { IoClose } from 'react-icons/io5';
+import { FaArrowRight } from 'react-icons/fa';
 
-export default function index() {
+export default function Index() {
     const [appWindow, setAppWindow] = useState();
     const [inputValue, setInputValue] = useState('');
     const [error, setError] = useState('You can idle multiple games (e.g. 460, 22100, 5749)');
@@ -30,7 +30,7 @@ export default function index() {
         appWindow?.close();
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async () => {
         if (inputValue.length > 0) {
             const status = await invoke('check_status');
             if (!status) {
@@ -113,5 +113,5 @@ export default function index() {
                 </div>
             </main>
         </React.Fragment>
-    )
+    );
 }
